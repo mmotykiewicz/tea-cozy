@@ -50,7 +50,7 @@ h3 {
   height: 100%;
   width: 1200px;
   margin: auto;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ h3 {
 .featured {
   width: 1000px;
   margin: auto;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .tea-container {
@@ -85,14 +85,14 @@ h3 {
 
 .tea-item {
   display: block;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-bottom: 20px;
 }
 
 .tea-image {
   height: 200px;
   width: 300px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 10px;
 }
 
@@ -123,14 +123,14 @@ h3 {
 
 .locations {
   height: 500px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-image: url("../images/img-locations-background.jpg");
   background-size: cover;
   text-align: center;
+  padding-top: 60px;
 }
 
 .locations h2 {
-  margin-top: 60px;
   margin-bottom: 15px;
 }
 
@@ -139,7 +139,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .location-item {
@@ -148,7 +148,7 @@ h3 {
   margin: 0px 20px 0px;
   background-color: black;
   opacity: 1;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,7 +157,7 @@ h3 {
 
 .contact {
   height: 200px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 footer {
