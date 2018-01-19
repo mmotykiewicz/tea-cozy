@@ -28,6 +28,10 @@ a {
   color: seashell;
 }
 
+h3 {
+  margin: 0px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -71,7 +75,7 @@ a {
   border: 1px solid white;
 }
 
-.featured-teas {
+.tea-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -79,7 +83,7 @@ a {
   margin: 0px auto 10px;
 }
 
-.tea-container {
+.tea-item {
   display: block;
   border: 1px solid white;
   margin-bottom: 20px;
@@ -115,4 +119,48 @@ a {
 #bedford {
   background-image: url("../images/img-bedford-bizarre.jpg");
   background-size: cover;
+}
+
+.locations {
+  height: 500px;
+  border: 1px solid white;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.locations h2 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.location-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.location-item {
+  height: 300px;
+  width: 300px;
+  margin: 0px 20px 0px;
+  background-color: black;
+  opacity: 1;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.contact {
+  height: 200px;
+  border: 1px solid white;
+}
+
+footer {
+  text-align: left;
+  margin: 0px 0px 20px 20px;
 }
